@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="98058" started-at="2019-08-29T10:33:43Z" finished-at="2019-08-29T10:35:21Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="feature" class="openweather.OpenWeatherMap.testrunner.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="98058" started-at="2019-08-29T10:33:43Z" finished-at="2019-08-29T10:35:21Z">
+      <class name="openweather.OpenWeatherMap.testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="setUpClass" is-config="true" duration-ms="701" started-at="2019-08-29T16:03:43Z" finished-at="2019-08-29T16:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="setup" is-config="true" duration-ms="2" started-at="2019-08-29T16:03:44Z" finished-at="2019-08-29T16:03:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="feature" duration-ms="93343" started-at="2019-08-29T16:03:44Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-29T16:05:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Open Weather Map website]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="feature" duration-ms="3359" started-at="2019-08-29T16:05:17Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-08-29T16:05:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[API tests fo open weather API]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="teardown" is-config="true" duration-ms="0" started-at="2019-08-29T16:05:21Z" finished-at="2019-08-29T16:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:openweather.OpenWeatherMap.testrunner.TestRunner@39fb3ab6]" name="tearDownClass" is-config="true" duration-ms="413" started-at="2019-08-29T16:05:21Z" finished-at="2019-08-29T16:05:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- openweather.OpenWeatherMap.testrunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
