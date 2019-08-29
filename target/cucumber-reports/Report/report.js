@@ -76,28 +76,28 @@ formatter.match({
   "location": "HomePage_TC.url_for_weather_map_website()"
 });
 formatter.result({
-  "duration": 20750096700,
+  "duration": 21383600000,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.i_get_navigated_to_homepage_using_provided_url()"
 });
 formatter.result({
-  "duration": 92402400,
+  "duration": 122705800,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.i_validate_the_fields_on_UI()"
 });
 formatter.result({
-  "duration": 296960000,
+  "duration": 305458100,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.check_more_outcomes()"
 });
 formatter.result({
-  "duration": 2807124700,
+  "duration": 2780458200,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,21 +127,21 @@ formatter.match({
   "location": "HomePage_TC.url_for_weather_map_website()"
 });
 formatter.result({
-  "duration": 12177630500,
+  "duration": 20088858400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.i_enter_Invalid_city_in_search_and_click_on_search_button()"
 });
 formatter.result({
-  "duration": 13835858200,
+  "duration": 3824982300,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.i_validate_that_response_contains_Not_Found()"
 });
 formatter.result({
-  "duration": 2984231400,
+  "duration": 2539909300,
   "status": "passed"
 });
 formatter.scenario({
@@ -171,21 +171,21 @@ formatter.match({
   "location": "HomePage_TC.url_for_weather_map_website()"
 });
 formatter.result({
-  "duration": 26793764800,
+  "duration": 18903947200,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.i_enter_valid_city_in_search_and_click_on_search_button()"
 });
 formatter.result({
-  "duration": 9442647600,
+  "duration": 3993653400,
   "status": "passed"
 });
 formatter.match({
   "location": "HomePage_TC.validate_that_response_contains_valid_details()"
 });
 formatter.result({
-  "duration": 3381297300,
+  "duration": 2916953000,
   "status": "passed"
 });
 formatter.uri("openweather_API.feature");
@@ -297,7 +297,7 @@ formatter.match({
   "location": "OpenWeather_API.i_want_to_send_request_with_cityname_parameter(String)"
 });
 formatter.result({
-  "duration": 617086100,
+  "duration": 1068981700,
   "status": "passed"
 });
 formatter.match({
@@ -310,14 +310,14 @@ formatter.match({
   "location": "OpenWeather_API.i_check_in_response_for_the_in_step(int)"
 });
 formatter.result({
-  "duration": 2193268600,
+  "duration": 2872470900,
   "status": "passed"
 });
 formatter.match({
   "location": "OpenWeather_API.i_verify_value_matches_expected_value()"
 });
 formatter.result({
-  "duration": 509479000,
+  "duration": 946143100,
   "status": "passed"
 });
 });

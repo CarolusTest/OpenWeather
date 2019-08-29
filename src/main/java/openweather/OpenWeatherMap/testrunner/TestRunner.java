@@ -30,7 +30,7 @@ public class TestRunner extends AbstractTestNGCucumberTests {
 		String projectPath = System.getProperty("user.dir");
 
 		ExtentProperties extentProperties = ExtentProperties.INSTANCE;
-		extentProperties.setReportPath(projectPath + "\\Report\\API_Report.html");
+		extentProperties.setReportPath(projectPath + "\\Report\\OpenWeather_Report.html");
 
 	}
 	
