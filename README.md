@@ -7,6 +7,9 @@ Following Project consist all Tests given for OpenWeather App.
 3.Validate Valid city weather Search Result
 4.Validate weather API request response against provided inputs.
 
+Git Repository 
+
+
 How to Run
 Pull project from Git repository to local Machine.
 Import project in Eclipse from local Repository.
@@ -15,5 +18,14 @@ Right click on pom.xml -> Run As -> Maven Clean
 and then Right click on pom.xml -> Run As -> Maven install
 
 Check Report
-Report directory contains execution report.
-Right Click -> Open With Browser
+# Run following command in Jenkins script console to view Extent report with graphs and coverage properly
+Manage Jenkins -> script console -> enter below command and click run button before running build.
+
+System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';")
+
+#In Jenkins Report directory contains execution report.
+http://localhost:8080/job/PrudentTest/ws/Report/OpenWeather_Report.html
+
+
+
+
